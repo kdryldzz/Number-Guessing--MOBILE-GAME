@@ -1,2 +1,26 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Specify Dart as the primary language
+*.dart linguist-language=Dart
+
+# Ignore C++ files
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored
+*.cxx linguist-vendored
+*.hpp linguist-vendored
+
+# Ignore CMake files
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+# Ignore Swift files
+*.swift linguist-vendored
+
+# Ignore HTML files
+*.html linguist-vendored
+
+# Ignore Kotlin files
+*.kt linguist-vendored
+*.kts linguist-vendored
